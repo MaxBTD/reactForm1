@@ -1,0 +1,13 @@
+#formularz{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#formBtn{
+    width: 150px;
+    height: 35px;
+}
+
+#btnDiv{
+    text-align: center;
+}

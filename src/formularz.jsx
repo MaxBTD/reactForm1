@@ -14,7 +14,7 @@ function Formularz(){
         if(imie.trim().length === 0){
            await alert("Imie nie wpisane");
         } else if(nazwisko.trim().length === 0){
-            await alert("NNazwisko nie wpisane");
+            await alert("Nazwisko nie wpisane");
         }else if(email.trim().length === 0){
             await alert("E-mail nie wpisany");
         }else if(haslo.trim().length === 0){
@@ -46,10 +46,10 @@ function Formularz(){
             <input type="email" id="inputEmail"/>
 
             <p>hasło</p>
-            <input type="text" id="inputPassword"/>
+            <input type="password" id="inputPassword"/>
 
             <p>Powtórz hasło</p>
-            <input type="text" id="inputRepeatPassword"/>
+            <input type="password" id="inputRepeatPassword"/>
 
             <div style={{display:"flex"}}>
                 <p>Zapoznałem się z <br/>regulaminem</p>
